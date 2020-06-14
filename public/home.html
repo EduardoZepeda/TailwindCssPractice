@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <title>Header</title>
 </head>
+
 <body>
   <div class="px-2 bg-secondary text-white flex justify-between items-center">
     <div><img class="h-8 py-1" src="images/logo-w.svg" alt=""></div>
     <div class="text-2xl">&equiv;</div>
   </div>
-  <main class="bg-gray-500 mb-8">
+  <main class="mb-8">
     <div class="h-56 md:h-100 bg-no-repeat bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1357&q=80');"></div>
     <div class="container mx-auto md:flex">
       <div class="mx-2 md:mx-0 mt-4 md:w-1/2 md:flex md:bg-white rounded-lg">
@@ -37,8 +39,25 @@
           <div class="mt-2 text-sm font-semibold text-green-700">MXN $49</div>
           <div class="mt-2 text-xs text-yellow-700">&starf;&starf;&starf;&starf;&star;/36 reseñas</div>
         </div>
+      </div>    </div>
+      <div class="container mx-auto mt-4 mx-2">
+        <div>
+          <div>¿Cúal es tu nombre?</div>
+          <input class="form-control placeholder-secondary" type="text" placeholder="Nombre" />
+        </div>
+        <div>
+          <div>¿Email?</div>
+          <input class="form-control placeholder-secondary" type="email" placeholder="Email" />
+        </div>
+        <div>
+          <div>Queremos oir tus comentarios</div>
+          <textarea class="form-control placeholder-secondary" name="name" rows="8" cols="80"></textarea>
+        </div>
+        <div>
+          <button class="btn">Enviar</button>
+        </div>
       </div>
-    </div>
+
   </main>
   <footer class="w-full bg-secondary text-white">
     <div class="md:flex md:flex-row-reverse justify-around">
@@ -56,4 +75,5 @@
     </div>
   </footer>
 </body>
+
 </html>
