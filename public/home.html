@@ -9,12 +9,36 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <title>Header</title>
 </head>
-
 <body>
+  <nav class="bg-secondary text-gray-100">
   <div class="px-2 bg-secondary text-white flex justify-between items-center">
     <div><img class="h-8 py-1" src="images/logo-w.svg" alt=""></div>
     <div class="text-2xl">&equiv;</div>
   </div>
+  <div class="my-1 mx-2">
+    <input type="search" class="form-control" placeholder="Quiero..."/>
+  </div>
+  <div class="py-1 mx-2 mt-2 md:flex justify-around">
+    <div class="flex">
+      Precio:
+        <div class="ml-2">$</div>
+        <div class="ml-2 text-primary">$$</div>
+        <div class="ml-2">$$$</div>
+        <div class="ml-2">$$$$</div>
+    </div>
+    <div class="flex">
+      <div class="">Calificación</div>
+      <div class="ml-2 text-primary">&starf;</div>
+       <div class="ml-px text-primary">&starf;</div>
+       <div class="ml-px text-primary">&starf;</div>
+       <div class="ml-px text-primary">&starf;</div>
+       <div class="ml-px">&star;</div>
+    </div>
+    <div>
+      <button class="btn btn-primary">Filtrar</button>
+    </div>
+  </div>
+  </nav>
   <main class="mb-8">
     <div class="h-56 md:h-100 bg-no-repeat bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1357&q=80');"></div>
     <div class="container mx-auto md:flex">
@@ -54,7 +78,7 @@
           <textarea class="form-control placeholder-secondary" name="name" rows="8" cols="80"></textarea>
         </div>
         <div>
-          <button class="btn">Enviar</button>
+          <button class="btn btn-primary mx-auto">Enviar</button>
         </div>
       </div>
 
