@@ -8,9 +8,13 @@
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "cssnano": "^4.1.10"
+  },
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/css/style.css -w"
+    "post-css:watch": "postcss css/tailwind.css -o public/css/style.css -w",
+    "post-css:build": "postcss css/tailwind.css -o public/css/style.css"
   },
   "keywords": [],
   "author": "",

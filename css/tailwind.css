@@ -9,7 +9,7 @@
   @apply bg-white;
 }
 
-.form-control: focus {
+.form-control:focus {
   @apply outline-none shadow-outline;
 }
 
