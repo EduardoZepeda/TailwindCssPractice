@@ -15,7 +15,8 @@
   },
   "scripts": {
     "post-css:watch": "postcss css/tailwind.css -o public/css/style.css -w",
-    "post-css:build": "postcss css/tailwind.css -o public/css/style.css"
+    "post-css:build": "postcss css/tailwind.css -o public/css/style.css",
+    "start": "serve public/"
   },
   "keywords": [],
   "author": "",
